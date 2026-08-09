@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sajjad Hosen Emon — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="grain"></div>
+
+  <!-- HEADER -->
+  <header class="hero" id="top">
+    <div class="hero-inner">
+      <p class="eyebrow">01 — index of a researcher</p>
+      <h1 class="name">Sajjad Hosen<br>Emon</h1>
+      <p class="title">NLP Researcher · Full-Stack Developer</p>
+      <p class="subtitle">Final-year CSE undergraduate, Premier University Chittagong.<br>
+      Building transformer ensembles for Bangla &amp; Banglish text — and the web apps around them.</p>
+      <div class="hero-links">
+        <a href="https://github.com/Sajjad-7H" target="_blank" rel="noopener">GitHub ↗</a>
+        <a href="https://sajjad-7h.github.io" target="_blank" rel="noopener">Main Site ↗</a>
+        <a href="#contact">Get in touch ↓</a>
+      </div>
+    </div>
+    <div class="hero-figure" aria-hidden="true">
+      <svg viewBox="0 0 220 220" width="100%" height="100%">
+        <g stroke="#d9a94d" stroke-width="1" fill="none" opacity="0.55">
+          <!-- confusion-matrix inspired grid, a nod to his thesis work -->
+          <rect x="10" y="10" width="200" height="200"/>
+          <line x1="10" y1="76.6" x2="210" y2="76.6"/>
+          <line x1="10" y1="143.3" x2="210" y2="143.3"/>
+          <line x1="76.6" y1="10" x2="76.6" y2="210"/>
+          <line x1="143.3" y1="10" x2="143.3" y2="210"/>
+        </g>
+        <g fill="#5fb3a3">
+          <circle cx="43" cy="43" r="18" opacity="0.85"/>
+          <circle cx="110" cy="110" r="24" opacity="0.9"/>
+          <circle cx="177" cy="177" r="15" opacity="0.8"/>
+          <circle cx="177" cy="43" r="6" opacity="0.5"/>
+          <circle cx="43" cy="177" r="8" opacity="0.5"/>
+        </g>
+      </svg>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <p class="eyebrow">02 — about me</p>
+      <div class="about-grid">
+        <p class="lede">I work at the point where <em>language</em> meets <em>code</em> — fine-tuning transformer ensembles to read Bangla, Banglish, and everything in between, then shipping the tools that put that research in front of real people.</p>
+        <div class="about-body">
+          <p>My thesis combines BanglaBERT, MuRIL, and XLM-RoBERTa into a weighted ensemble for emotion detection across Bangla, Banglish, and code-mixed text — evaluated across 79 model runs and three stratified data splits, with a cross-domain analysis of how badly single-script training collapses on mixed input.</p>
+          <p>Outside the notebook, I build full-stack products end to end. StudyHub, a peer resource-sharing platform for my department, went from idea to a live deployment on Vercel and Render with role-based auth and Cloudinary storage. I like projects that force both halves of my brain to show up.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+      <p class="eyebrow">03 — skills</p>
+      <div class="skills-grid">
+
+        <div class="skill-group">
+          <h3>NLP &amp; ML</h3>
+          <ul>
+            <li>Transformer fine-tuning</li>
+            <li>BanglaBERT / MuRIL / XLM-R</li>
+            <li>Ensemble methods</li>
+            <li>LIME &amp; SHAP explainability</li>
+            <li>PyTorch · HuggingFace</li>
+          </ul>
+        </div>
+
+        <div class="skill-group">
+          <h3>Web Development</h3>
+          <ul>
+            <li>React · Vite · Tailwind</li>
+            <li>Node.js · Express</li>
+            <li>MongoDB Atlas</li>
+            <li>JWT Authentication</li>
+            <li>PHP · Laravel</li>
+          </ul>
+        </div>
+
+        <div class="skill-group">
+          <h3>Tools &amp; Practice</h3>
+          <ul>
+            <li>Git &amp; GitHub</li>
+            <li>Colab · Kaggle</li>
+            <li>Vercel · Render</li>
+            <li>LaTeX / Overleaf</li>
+            <li>Figma</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact" id="contact">
+      <p class="eyebrow">04 — contact</p>
+      <h2 class="contact-heading">Open to research collaborations,<br>graduate opportunities, and web projects.</h2>
+      <div class="contact-list">
+        <a href="https://github.com/Sajjad-7H" target="_blank" rel="noopener">
+          <span class="contact-label">GitHub</span>
+          <span class="contact-value">github.com/Sajjad-7H</span>
+        </a>
+        <a href="https://sajjad-7h.github.io" target="_blank" rel="noopener">
+          <span class="contact-label">Portfolio</span>
+          <span class="contact-value">sajjad-7h.github.io</span>
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>Designed &amp; built by Sajjad Hosen Emon — Synent Technologies Internship, Task 1.</p>
+  </footer>
+
+</body>
+</html>
