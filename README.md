@@ -17,7 +17,7 @@ A single-page personal portfolio built with plain HTML and CSS, submitted as **T
 
 ## Live Demo
 
-[Add your GitHub Pages link here once deployed]
+[Add your GitHub Pages link here once deployed](https://sajjad-7h.github.io/synent-task1-portfolio-sajjad/)]
 
 ## Author
 
